@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#total button {
+	padding: 10px;
+	font-size: 15pt;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#top {
+	width: 1000px;
+	height: 60px;
+	background: #3A3B3C;
+}
+
+#top2 {
+	width: 300px;
+	height: 100px;
+	background: #616161;
+	color: white;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	border-radius: 0px 50px 0px 50px;
+}
+
+#center {
+	height: auto;
+	padding-top: 40px;
+	text-align: left;
+}
+
+li {
+	font-family: "Apple SD Gothic Neo";
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+}
+
+li:hover {
+	font-family: "Apple SD Gothic Neo";
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	background: #616161; 
+	padding : 10px;
+	margin: 5px;
+	padding: 10px; 
+	margin : 5px;
+	border-radius: 40px;
+}
+

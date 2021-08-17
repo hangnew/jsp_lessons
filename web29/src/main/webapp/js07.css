@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+	background-color: skyblue;
+}
+
+body button {
+	font-size: 20pt;
+	font-weight: bold;
+	border: none;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: purple;
+	color: white;
+}
