@@ -1,0 +1,64 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+li {
+	font-family: "Apple SD Gothic Neo";
+	list-style: none;
+	padding: 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#info {
+	margin: auto;
+}
+
+#youtube {
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+li:hover {
+	background: #89BDC9;
+	border-radius: 50px;
+}
+
+#total {
+	width: 1000px;
+	height: 100vh;
+	margin:0 auto;
+}
+
+#top {
+	width: 1000px;
+	height: 60px;
+	margin:0 auto;
+	background: #005990;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#icon {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+#main{
+	width: 1000px;
+	height: 1600px;
+	margin: 0 auto;
+	font-family: "Apple SD Gothic Neo";
+	color: #005990;
+	background: #F2F2F2;
+	border-radius: 0px 0px 10px 10px;
+}
