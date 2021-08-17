@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="insert2.jsp">
+		- 제목 : <input name="title"><br>
+		- 글쓴이 : <input name="writer"><br>
+		- 내용 : <textarea rows="10" cols="20" placeholder="내용 작성" name="content"></textarea><br>
+		- 종류 : 
+			<input type="radio" value="문의사항" name="enquiry">문의사항 
+			<input type="radio" value="답변" name="enquiry">답변 
+			<input type="radio" value="확인" name="enquiry">확인 <br>
+		- 부서 :
+			<select name ="dprtmnt">
+			<option value="기획부">기획부 
+			<option value="총무부">총무부 
+			<option value="인사부">인사부
+			</select><br>
+		- 날짜 : <input name="date"><br>
+		<button type="submit">글쓰기</button>
+	</form>
+</body>
+</html>
